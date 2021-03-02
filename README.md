@@ -20,15 +20,13 @@ You should ask for following details :
 
 Personal Details 
 
- 
-
 Name 
 
 Email 
 
 phone number (only numeric) 
 
-Gander: 
+Gender: 
 
 Date of proposed outing 
 
@@ -59,3 +57,5 @@ Please provide 1 contact point for your reference
 An option to upload the bank statement :-)  
 
 A submit button 
+
+Finally you have ready with your dating applcation registration form 😍
