@@ -1,0 +1,125 @@
+<!-- hi this is satyam singh this is my assignment number 2 i have used font-awosome library for this assignment and css predefined styles-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Colorlib Templates">
+  <meta name="author" content="Colorlib">
+  <meta name="keywords" content="Colorlib Templates">
+
+  <!-- Title Page-->
+  <title>Au Register Forms by Colorlib</title>
+
+  <!-- Icons font CSS-->
+  <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+  <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+  <!-- Font special for pages-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Vendor CSS-->
+  <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+  <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+  <!-- Main CSS-->
+  <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+  <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo">
+    <div class="wrapper wrapper--w960">
+      <div class="card card-2">
+        <div class="card-heading"></div>
+        <div class="card-body">
+          <h2 class="title">Dating Registration Form</h2>
+          <form method="POST">
+            <div class="input-group">
+              <input class="input--style-2" type="text" placeholder="Name" name="name">
+            </div>
+            <div class="input-group">
+              <input class="input--style-2" type="email" placeholder="Email" name="email">
+            </div>
+            <div class="input-group">
+              <input class="input--style-2" type="number" placeholder="Contact" name="contact">
+            </div>
+            <div class="row row-space">
+              <div class="col-2">
+                <div class="input-group">
+                  <label for="input--style-2 js-datepicker" class="input--style-2">Date of proposed Outing </label>
+                  <input class="input--style-2 js-datepicker" type="date" placeholder="Date of proposed Outing" name="birthday">
+                  <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                </div>
+              </div><br>
+              <div class="col-2">
+                <div class="input-group">
+                  <div class="rs-select2 js-select-simple select--no-search">
+                    <select name="gender">
+                      <option disabled="disabled" selected="selected">Gender</option>
+                      <option>Male</option>
+                      <option>Female</option>
+                      <option>Other</option>
+                    </select>
+
+                    <div class="select-dropdown"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <label for="" class="input--style-2">Check all that apply to you</label>
+              <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> I have tattos and percing</label><br>
+              <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+              <label for="vehicle2"> I am more than older than my daughter</label><br>
+              <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+              <label for="vehicle3"> I own panel van or ferrari</label><br>
+              <input type="checkbox" id="vehicle4" name="vehicle4" value="Boat">
+              <label for="vehicle4"> I work Full-time</label><br>
+              <input type="checkbox" id="vehicle5" name="vehicle5" value="Boat">
+              <label for="vehicle5"> My parents are Rich</label><br><br>
+              <label for="" class="input--style-">Is the date at private or public ?</label>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Private</label><br>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Public</label><br>
+              <input type="checkbox" id="vehicle6" name="vehicle5" value="Boat">
+              <label for="vehicle6">Education level completed</label><br><br>
+
+
+            </div>
+            <div class="">
+              <input type="textarea" name="" value="">
+
+            </div>
+            <div class="input-group">
+              <label for="myFile" class="input--style-2">Upload Bank Statement </label>
+
+              <input type="file" id="myFile" name="filename">
+              <div class="p-t-30">
+                <button class="btn btn--radius btn--green" type="submit">Upload</button>
+              </div>
+
+            </div>
+            <div class="input-group">
+              <label for="w3review" class="input--style-2">Why do you want to date my daughter?</label>
+
+              <textarea id="w3review" name="w3review" rows="4" cols="50" maxlength="50">
+
+</textarea>
+            </div>
+            <div class="p-t-30">
+              <button class="btn btn--radius btn--green" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
